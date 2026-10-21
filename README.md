@@ -1,15 +1,35 @@
 # Soldat Map Studio
 
-**Look at any Soldat map in your browser, and make your own.** No download, no install: open the
-page, pick a map or start a new one, and save a `.pms` that plays in Soldat.
+**View and make Soldat maps online.** A free map viewer and editor for Soldat, right in your
+browser: look at any of 3,700 maps, edit them or make your own, turn any picture into ground, and
+save a `.pms` that plays in Soldat 1.7.1. No download, no install.
 
 ### ▶ Open it: **[mellbot.site/maps](https://mellbot.site/maps)**
-(also at [tv.mellbot.site/maps](https://tv.mellbot.site/maps))
 
-![Map Studio showing ctf_Ash](docs/screenshots/01-view.png)
+[![Map Studio: view and make Soldat maps online](docs/screenshots/00-card.jpg)](https://mellbot.site/maps)
 
 Made by **mellbot.site**. This repository is the guide and a showcase: Map Studio itself is not
 open source (see [Copyright](#copyright)).
+
+---
+
+## ✨ Make ground from any picture
+
+Drawing ground around a detailed picture, corner by corner, takes hours. Map Studio does it in
+one click:
+
+1. Place a picture on the map: a tree, a rock, a building, a logo, your own drawing.
+2. Select it and press **Make ground from this picture**.
+3. The studio finds the picture's outline and cuts it into polygons, holes and all. You see them
+   in gold before anything is added.
+4. Choose how detailed, the ground type (normal, ice, deadly, bouncy ...) and the look: invisible
+   ground under the picture, or real ground with the map's texture. Press **Add**.
+
+It works with transparent PNGs, Soldat's green-background BMPs, and even JPGs and photos with a
+plain background (it removes the background colour). Fix anything by hand on the preview, zoomed
+in as far as you like.
+
+![Making ground from a picture](docs/screenshots/06-ground-from-picture.png)
 
 ---
 
@@ -26,7 +46,8 @@ open source (see [Copyright](#copyright)).
   even from photos with a plain background.
 - **Your own pictures and textures**: add them from your computer; the map is then saved as a
   `.zip` with everything it needs.
-- **Nothing is uploaded**: your maps and pictures stay in your browser. Work in progress is kept
+- **Your files stay with you**: the maps and pictures you open stay in your browser. When you save,
+  a small picture of the map goes to mellbot.site (kept 7 days). Work in progress is kept
   as a draft, so closing the page loses nothing.
 
 ![Ground types lit up](docs/screenshots/02-ground-types.png)
@@ -98,7 +119,6 @@ polygons before anything is added.
 
 Undo (↶) takes back any change; Start over (↺) goes back to the first result.
 
-![Ground from a picture](docs/screenshots/06-ground-from-picture.png)
 ![Working on the picture big](docs/screenshots/07-picture-big.png)
 
 ### 6. Save and play
